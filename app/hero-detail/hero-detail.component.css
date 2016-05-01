@@ -6,6 +6,18 @@ label {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+#heroNameWrapper {
+  background-color: white;
+  padding: 5px;
+  margin: 10px 30px 5px 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+
 input {
   height: 2em;
   font-size: 1em;

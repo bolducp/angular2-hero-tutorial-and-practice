@@ -32,10 +32,11 @@ h3 {
 .module {
     padding: 20px;
     text-align: center;
-    color: #eee;
+    color: black;
     max-height: 120px;
     min-width: 120px;
-    background-color: #607D8B;
+    background-color: white;
+    border: 1px solid black;
     border-radius: 2px;
 }
 
