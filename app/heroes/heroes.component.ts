@@ -11,13 +11,12 @@ import { HeroService } from './hero.service';
   styleUrls:  ['app/heroes/heroes.component.css'],
   directives: [HeroDetailComponent]
 })
+
 export class HeroesComponent implements OnInit {
   heroes: Hero[];
   selectedHero: Hero;
 
-  constructor(
-    private _router: Router,
-    private _heroService: HeroService) { }
+  constructor( private _router: Router, private _heroService: HeroService) { }
 
   getHeroes() {
     this._heroService.getHeroes().then(heroes => this.heroes = heroes);
