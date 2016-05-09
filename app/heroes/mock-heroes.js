@@ -15,7 +15,7 @@ System.register([], function(exports_1, context_1) {
                 { "id": 7, "name": "Dynama", "color": "SlateBlue" },
                 { "id": 8, "name": "Dr IQ", "color": "Crimson" },
                 { "id": 9, "name": "Magma", "color": "MediumAquaMarine" },
-                { "id": 10, "name": "Tornado", "color": "LightCoral " }
+                { "id": 10, "name": "Tornado Man", "color": "LightCoral " }
             ]);
         }
     }
