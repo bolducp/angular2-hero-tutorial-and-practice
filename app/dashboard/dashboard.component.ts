@@ -1,5 +1,5 @@
-import { Component, OnInit } from 'angular2/core';
-import { Router } from 'angular2/router';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router-deprecated';
 
 import { Hero } from '../heroes/hero';
 import { HeroService } from '../heroes/hero.service';
@@ -12,7 +12,7 @@ import { HeroService } from '../heroes/hero.service';
 
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
-  
+
   constructor(private _router: Router, private _heroService: HeroService) { }
 
   ngOnInit() {
