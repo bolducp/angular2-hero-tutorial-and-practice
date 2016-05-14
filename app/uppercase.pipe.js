@@ -1,4 +1,4 @@
-System.register(['angular2/core'], function(exports_1, context_1) {
+System.register(['@angular/core'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -22,7 +22,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 function MyUppercasePipe() {
                 }
                 MyUppercasePipe.prototype.transform = function (value) {
-                    return value;
+                    return value.toUpperCase();
                 };
                 MyUppercasePipe = __decorate([
                     core_1.Pipe({ name: 'my-uppercase' }), 
